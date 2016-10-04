@@ -8,4 +8,10 @@ router.get('/', function(req, res, next) {
 router.get('/testmao', function(req, res, next) {
   res.render('maotest', { title: 'Express' });
 });
+router.get('/newFile', function(req, res, next) {
+  res.render('newFile', { title: 'Express' });
+});
+router.get('/mao', function(req, res, next) {
+  res.render('123', { title: 'Express' });
+});
 module.exports = router;
