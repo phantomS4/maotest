@@ -14,4 +14,7 @@ router.get('/newFile', function(req, res, next) {
 router.get('/mao', function(req, res, next) {
   res.render('123', { title: 'Express' });
 });
+router.get('/xiaogou', function(req, res, next) {
+  res.render('tuzi', { title: 'Express' });
+});
 module.exports = router;
