@@ -17,4 +17,7 @@ router.get('/mao', function(req, res, next) {
 router.get('/xiaogou', function(req, res, next) {
   res.render('tuzi', { title: 'Express' });
 });
+router.get('/dahua', function(req, res, next) {
+  res.render('hl', { title: 'Express' });
+});
 module.exports = router;
